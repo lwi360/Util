@@ -26,6 +26,7 @@ namespace Util.Samples.Controllers {
         /// </summary>
         [Html( Path = "Typings/app/base/not-found.component.html" )]
         public IActionResult NotFoundPage() {
+            // 测试
             return View();
         }
     }
